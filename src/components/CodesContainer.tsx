@@ -25,7 +25,7 @@ function CodesContainer(): React.ReactElement {
           <span className="bg-blue-100 text-blue-600 px-3 py-2 rounded-full text-sm">
             What's new
           </span>
-          <span className="text-blue-200">Your solution is here</span>
+          <span className="text-blue-200"><Link to="https://github.com/TWARIQABDUL/">Your solution is here</Link></span>
         </div>
 
         {/* Heading */}
