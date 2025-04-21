@@ -25,7 +25,7 @@ function CodesContainer(): React.ReactElement {
           <span className="bg-blue-100 text-blue-600 px-3 py-2 rounded-full text-sm">
             What's new
           </span>
-          <span className="text-blue-200"><Link to="https://github.com/TWARIQABDUL/">Your solution is here</Link></span>
+          <span className="text-blue-200">Your solution is here</span>
         </div>
 
         {/* Heading */}
@@ -46,9 +46,11 @@ function CodesContainer(): React.ReactElement {
           <button className="px-6 py-3 md:px-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
             Download Resume
           </button>
-          <button className="px-6 py-3 bg-gray-100 text-gray-900 rounded-lg shadow hover:bg-gray-200">
+          <Link to="https://github.com/TWARIQABDUL/" className="px-6 py-3 bg-gray-100 text-gray-900 rounded-lg shadow hover:bg-gray-200">
+{/*           <button className="px-6 py-3 bg-gray-100 text-gray-900 rounded-lg shadow hover:bg-gray-200"> */}
             View My Work →
-          </button>
+{/*           </button> */}
+          </Link>
         </div>
       </div>
 
